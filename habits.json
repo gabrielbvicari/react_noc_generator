@@ -1,0 +1,72 @@
+[
+    {
+        "id": "0",
+        "name": "Drink",
+        "description": "Drink"
+    },
+    {
+        "id": "1",
+        "name": "Eat",
+        "description": "Eat"
+    },
+    {
+        "id": "2",
+        "name": "Sleep",
+        "description": "Sleep"
+    },
+    {
+        "id": "3",
+        "name": "Repeat",
+        "description": "Repeat"
+    },
+    {
+        "id": "4",
+        "name": "Drink",
+        "description": "Drink"
+    },
+    {
+        "id": "5",
+        "name": "Eat",
+        "description": "Eat"
+    },
+    {
+        "id": "6",
+        "name": "Sleep",
+        "description": "Sleep"
+    },
+    {
+        "id": "7",
+        "name": "Repeat",
+        "description": "Repeat"
+    },
+    {
+        "id": "8",
+        "name": "Drink",
+        "description": "Drink"
+    },
+    {
+        "id": "9",
+        "name": "Eat",
+        "description": "Eat"
+    },
+    {
+        "id": "10",
+        "name": "Sleep",
+        "description": "Sleep"
+    },
+    {
+        "id": "11",
+        "name": "Repeat",
+        "description": "Repeat"
+    },
+    {
+        "id": "12",
+        "name": "Sleep",
+        "description": "Sleep"
+    },
+    {
+        "id": "13",
+        "name": "Repeat",
+        "description": "Repeat"
+    }
+]
