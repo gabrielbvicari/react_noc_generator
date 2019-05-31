@@ -15,7 +15,7 @@ const AppNavigator = createStackNavigator(
       navigationOptions: {
         title: 'Habits',
         headerTitleStyle: {
-          textAlign: 'right',
+          textAlign: 'left',
         }
       }
     }
