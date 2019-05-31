@@ -119,14 +119,14 @@ export default class LoginPage extends React.Component {
                 <View style = { styles.btn }>
                     <Button
                         title = 'LOGIN'
-                        color = '#6542f4'
+                        color = '#7ad9ff'
                         onPress = { () => this.login() }
                     />
                 </View>
                 <View style = { styles.btn }>
                     <Button
                         title = 'REGISTER'
-                        color = '#a08af7'
+                        color = '#7ad9ff'
                         onPress = { () => this.registration() }
                     />
                 </View>
@@ -162,8 +162,9 @@ export default class LoginPage extends React.Component {
                     <FormRow>
                         <TextInput
                             style = { styles.input }
-                            placeholder = "user@email.com"
+                            placeholder = "E-mail"
                             keyboardType = "email-address"
+                            autoCapitalize = "none"
                             value = { this.state.email }
                             onChangeText = { value => this.onChangeHandler('email', value)}
                         />
@@ -171,12 +172,14 @@ export default class LoginPage extends React.Component {
                     <FormRow>
                         <TextInput
                             style = { styles.input }
-                            placeholder = "**********"
+                            placeholder = "Password"
                             secureTextEntry
                             value = { this.state.paswd }
                             onChangeText = { value => this.onChangeHandler('paswd', value)}
                         />
                     </FormRow>
+                    <View style = { styles.logoPadding }>
+                    </View>
                     { this.renderButton() }
                     { this.renderMessage() }
                 </ScrollView>
@@ -187,22 +190,22 @@ export default class LoginPage extends React.Component {
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: '#2C1526',
+        backgroundColor: '#31C5FF',
         paddingRight: 10,
         paddingLeft: 10,
     },
     input: {
-        paddingTop: 10,
+        paddingTop: 5,
         paddingRight: 5,
         paddingLeft: 5,
-        paddingBottom: 10,
+        paddingBottom: 5,
     },
     btn: {
-        paddingTop: 5,
-        paddingBottom: 5,
+        paddingBottom: 0,
         fontSize: 11,
     },
     logo: {
+        paddingTop: 10,
         aspectRatio: 1,
         resizeMode: "center",
         width: 400,
@@ -211,6 +214,9 @@ const styles = StyleSheet.create({
     logoView: {
         justifyContent: "center",
         alignItems: "center",
+    },
+    logoPadding: {
+        padding: 2.5,
     },
     loading: {
         padding: 10,
